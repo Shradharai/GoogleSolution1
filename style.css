@@ -1,0 +1,237 @@
+body, html {
+    height: 100%;
+    margin: 0;
+   
+    
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(124, 108, 128, 1);
+  
+  }
+
+  header {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); /* centers the header horizontally */
+    z-index: 1000;
+    padding: 3rem; /* ensures the header stays on top of other elements */
+}
+b{
+    color: rgb(43, 32, 46);
+}
+  
+  .signup,.login{
+   
+    width: 400px; 
+    height:400px;
+    margin: 0 auto;
+    background-size: cover;
+    transform: translateY(50px);
+    transform: translateX(50px);
+    border-radius: 20%;
+    font-size: 25px;
+    
+ 
+  }
+  fieldset {
+    border-radius: 10px; 
+    background-color: rgba(206, 194, 194, 1);
+    margin: 0 auto; 
+    text-align: center; 
+    transform: translateY(30%);
+    transform: translateX(-20%);
+    height: 400px;
+    padding: 4rem;
+    width: 300px;
+  }
+
+  legend{
+   font-size: 35px;
+font-weight: 100;  }
+
+input[type="submit"] {
+    background-color: rgba(217, 217, 217, 1); 
+    color: rgb(14, 3, 3);
+    padding: 15px 32px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px; 
+    cursor: pointer;
+  }
+input[type="submit"]:hover {
+    background-color: #45a049; 
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="submit"] {
+
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+  }
+  a {
+    color: #821d80;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+  .navbar {
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    background: rgba(179, 179, 179, 1);
+    background-blend-mode: darken;
+    background-size: cover;
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    margin-bottom: 700px; 
+}
+
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    flex-grow: 1;
+    justify-content: space-between;/* Distribute items equally */
+}
+.nav-list li {
+    margin-right: 20px;
+}
+.nav-list li button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px; /* Increase font size */
+    cursor: pointer;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    border-radius: 20px;
+    padding: 15px; /* Increase padding */
+}
+
+.nav-list li button:hover {
+    color: #000;
+    background-color: rgba(171, 146, 177, 1);
+}
+.nav-list li:last-child {
+    margin-right: 0;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    transition: color 0.3s ease-in-out;
+}
+.nav-list li:last-child a {
+    margin-right: 0; /* Remove margin from the last anchor link */
+}
+
+.nav-list li a:hover {
+    color: rgba(66, 62, 62, 1);
+    /* Change the color on hover */
+}
+
+.rightNav {
+    text-align: right;
+    display: flex;
+}
+
+#search {
+    padding: 8px;
+    font-size: 22px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: rgba(171, 146, 177, 1);
+    color:  rgba(66, 62, 62, 1);;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #000;
+   
+    color: rgba(171, 146, 177, 1);
+}
+
+.contact {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-color: #f0f0f0; 
+}
+
+.contact form {
+    width: 80%; 
+    max-width: 600px; 
+    padding: 20px; 
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact form fieldset {
+    border: none; 
+}
+
+.contact form legend {
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"],
+.contact form textarea {
+    width: 100%; 
+    margin-bottom: 10px; 
+    padding: 10px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+}
+
+.contact form textarea {
+    height: 100px; 
+}
+
+.contact form button {
+    background-color: #007bff; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.contact form button:hover {
+    background-color: #0056b3; 
+}
+
